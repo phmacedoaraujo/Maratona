@@ -1,15 +1,28 @@
+/** PROBLEMA URI 1018 http://www.urionlinejudge.com.br/judge/pt/problems/view/1018
+ **
+ ** A função calculaNotas recebe um inteiro “valor” que representa um valor em reais, 
+ ** e outros sete inteiros que devem ao final da execução da função, representar a 
+ ** quantidade nessesária para cada tipo de nota. Modifique a função calculaNotas para 
+ ** que ela, ao final da execução tenha a quantidade mínima de notas representadas pelas
+ ** variaveis nota_(valor_da_nota).
+ **
+ **
+ **    Exemplo :
+ **      Dado  valor = 576, ao final da execução, as variaveis de valor devem conter os seguintes valores :
+ **      nota_100 = 5
+ **      nota_50 = 1
+ **      nota_20 = 1
+ **      nota_10 = 0
+ **      nota_05 = 1
+ **      nota_02 = 0
+ **      nota_01 = 1
+ **
+ **/
 #include <iostream>
 
 using namespace std;
 
-/* Funcao recebe um inteiro "valor", que represneta o valor em dinheiro e deve calcular o menor número de notas possíveis, 
- armazenando a quantidade de notas de 100 em nota_100 , a quantidade de notas de 50 em nota_50 e assim por diante.
-
- */
-
 void calculaNotas(int valor, int &nota_100, int &nota_50, int &nota_20, int &nota_10, int &nota_05, int &nota_02, int &nota_01){
-
-	
 
 }
 
