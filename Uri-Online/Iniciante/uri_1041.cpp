@@ -1,25 +1,28 @@
+/** PROBLEMA URI 1041 http://www.urionlinejudge.com.br/judge/pt/problems/view/1041
+ ** 
+ ** A função calculaQuadrante(int x, int y) recebe dois inteiros como parâmetro,
+ ** x e y que representam as coordenadas de um ponto p em um plano. Ela deverá 
+ ** retornar um caractere conforme a tabela abaixo :
+ **
+ **
+ **      return 'O' -> Se o ponto estiver na origem. 
+ **      return 'X' -> Se o ponto estiver no eixo X.
+ **      return 'Y' -> Se o ponto estiver no eixo Y.
+ **      return 'P' -> Se o ponto estiver no primeiro quadrante.
+ **      return 'S' -> Se o ponto estiver no segundo quadrante.
+ **      return 'T' -> Se o ponto estiver no terceiro quadrante.
+ **      return 'Q' -> Se o ponto estiver no quarto quadrante.
+ **
+ **/
+
 #include <iostream>
 
 using namespace std;
 
 
-/* A funcao calculaQuadrante recebe as coordenadas (x e y) de um ponto em um plano.
-	O aluno devera retornar o caractere :
-
-	O (letra o) : Se o ponto estiver na origem
-	X : Se o ponto estiver no exito x
-	Y : Se o ponto estiver no eixo y
-	P : Se o ponto estiver no primeiro quadrante
-	S : Se o ponto estiver no segundo quadrante
-	T : Se o ponto estiver no terceiro quadrante
-	Q : Se o ponto estiver no quarto quadrante
-
-*/
-
 char calculaQuadrante(int x, int y){
 
-
-	return '0';
+	return 'A';
 }
 
 int main(){
@@ -43,10 +46,10 @@ int main(){
 
 
 		// Caso o aluno retorne uma letra minuscula 
-		case 'p': cout << "Q1\n"; break; // primeiro quadrante
-		case 's': cout << "Q2\n"; break; // segundo quadrante
-		case 't': cout << "Q3\n"; break; // terceiro quadrante
-		case 'q': cout << "Q4\n"; break; // quarto quadrante
+		case 'p': cout << "Q1\n"; break; 
+		case 's': cout << "Q2\n"; break; 
+		case 't': cout << "Q3\n"; break; 
+		case 'q': cout << "Q4\n"; break;
 		case 'x': cout << "Eixo X\n"; break;
 		case 'y': cout << "Eixo Y\n"; break;
 		case 'o': cout << "Origem\n"; break;

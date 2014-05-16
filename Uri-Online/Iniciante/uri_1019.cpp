@@ -1,15 +1,27 @@
+/** PROBLEMA URI 1019 http://www.urionlinejudge.com.br/judge/pt/problems/view/1019
+ ** 
+ ** Dado o inteiro “tempo” que representa a duração em segundos de um evento,
+ ** modifique a função converteTempo para que ela converta o tempo para o formato
+ ** horas, minutos e segundos. Ao final da execução, os valores horas, minutos e 
+ ** segundos devem conter respectivamente a quantidade de horas, minutos e segundos
+ ** referentes a duração do evento.
+ **
+ **
+ **     Exemplo :
+ **           Dado tempo = 556, as variavéis horas, minutos e segundos devem, ao final da execução, conter :
+ **       
+ **                 horas = 0
+ **                 minutos = 9
+ **                 segundos = 16
+ **
+ **/
+
 #include <iostream>
 
 using namespace std;
 
-/* A funcao converteTempo recebe um inteiro tempo, que representa um tempo em segundos e deve converter esse tempo para horas, minutos e segundos.
-	Devera ser armazenado o valor das horas na variavel horas, minutos na minutos e segundos na segundos.
-
-*/
-
 void converteTempo(int tempo, int &horas, int &minutos, int &segundos){
-
-
+	
 }
 
 
